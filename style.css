@@ -169,8 +169,11 @@ li {
 }
 /*  FOOTER SECTION  */
 .footer {
+  display: flex;
   background-color: #1f2937;
   color: #f9faf8;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
   padding: 10px;
+  height: 32px;
 }
