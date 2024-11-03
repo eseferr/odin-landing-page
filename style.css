@@ -13,9 +13,13 @@
   font-family: roboto;
   padding: 5px 80px 80px 80px;
 }
-.hero-text {
+.hero-text-header {
   font-size: 48px;
   font-weight: 900;
+  margin-left: 20px;
+}
+.hero-text {
+  margin-left: 20px;
 }
 .header-logo {
   font-size: 24px;
@@ -36,8 +40,8 @@
 }
 .header-bottom {
   display: flex;
-  justify-content: space-between;
-  gap: 72px;
+
+  gap: 240px;
 }
 .header-bottom-left {
   display: flex;
@@ -49,10 +53,11 @@
   margin-right: 50px;
 }
 .header-img {
-  width: 300px;
-  height: auto;
+  height: 200px;
+  width: auto;
 }
 .sign-up-button {
+  margin: 10px 20px;
   background-color: #3882f6;
   width: auto;
   align-self: flex-start;
@@ -61,7 +66,6 @@
   border-radius: 5px;
   color: #f9faf8;
   border-radius: 5px;
-  margin-top: 10px;
 }
 
 a {
